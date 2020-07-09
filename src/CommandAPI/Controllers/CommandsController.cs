@@ -14,6 +14,7 @@ namespace CommandAPI.Controllers
 
         public CommandsController(CommandDBContext context) => _context = context;
 
+        //Random comment
         //GET api/commands
         [HttpGet]
         public ActionResult<IEnumerable<Command>> GetCommandItems() => _context.CommandItems;
